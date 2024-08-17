@@ -12,6 +12,7 @@ This project explores the performance of Retrieval-Augmented Generation (RAG) an
 ## Data
 
 - The project uses the Stanford Question Answering Dataset (SQuAD) from Hugging Face's `datasets` library.
+https://huggingface.co/datasets/rajpurkar/squad
 
 ## Installation
 
