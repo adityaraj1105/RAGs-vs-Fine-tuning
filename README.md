@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project explores the performance of Retrieval-Augmented Generation (RAG) and fine-tuned GPT-2 models on the SQuAD dataset. The main goal is to compare the results of RAG and GPT-2 in answering questions based on the provided context.
+This project explores the performance of Retrieval-Augmented Generation (RAG) and fine-tuned GPT-2 models on the Stanford Question Answering Dataset (SQuAD). The goal is to compare the results of RAG and GPT-2 in answering questions based on the provided context.
 
 ## Code Structure
 
@@ -11,7 +11,7 @@ This project explores the performance of Retrieval-Augmented Generation (RAG) an
 
 ## Data
 
-- The project uses the SQuAD dataset from Hugging Face's `datasets` library.
+- The project uses the Stanford Question Answering Dataset (SQuAD) from Hugging Face's `datasets` library.
 
 ## Installation
 
