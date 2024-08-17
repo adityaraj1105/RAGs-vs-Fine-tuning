@@ -6,7 +6,7 @@ This project explores the performance of Retrieval-Augmented Generation (RAG) an
 
 ## Code Structure
 
-- `RAGs_vs_Fine-tuning.ipynb`: Contains the code for fine-tuning the GPT-2 model on the SQuAD dataset and setting up the RAG pipeline and performing comparisons between RAG and GPT-2.
+- `RAGs_vs_Fine-tuning.ipynb`: Contains the code for fine-tuning the GPT-2 model on the SQuAD dataset and setting up the RAG pipeline and then performing comparisons between RAG and GPT-2.
 
 
 ## Data
