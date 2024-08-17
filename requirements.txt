@@ -1,5 +1,4 @@
-Requirements
-Python 3.8+
-Transformers library
-Datasets library
-Farm-Haystack library
+transformers==4.34.0
+datasets==2.15.1
+farm-haystack==1.6.0
+torch==2.0.1
