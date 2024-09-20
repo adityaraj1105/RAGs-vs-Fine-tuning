@@ -9,7 +9,7 @@ RAG (using DistilBART): A hybrid model that augments generative transformers wit
 Fine-tuned GPT-2: A standard generative model fine-tuned for the task of question-answering.
 
 2. Dataset
-We used the SQuAD (Stanford Question Answering Dataset) for evaluating both models. This dataset consists of questions posed on a set of Wikipedia articles, where the model has to generate an answer based on the article content.
+I used the SQuAD (Stanford Question Answering Dataset) for evaluating both models. This dataset consists of questions posed on a set of Wikipedia articles, where the model has to generate an answer based on the article content.
 
 Dataset Statistics:
 Training set size: 87,599 examples
@@ -17,7 +17,7 @@ Validation set size: 10,570 examples
 
 3. Models and Techniques
 3.1 RAG Model
-The RAG (Retrieval-Augmented Generation) model combines retrieval-based techniques with generative transformers. For our experiment, we utilized a pre-trained DistilBART as the base model and fine-tuned it on the SQuAD dataset.
+The RAG (Retrieval-Augmented Generation) model combines retrieval-based techniques with generative transformers. For the experiment, I utilized a pre-trained DistilBART as the base model and fine-tuned it on the SQuAD dataset.
 
 3.2 Fine-tuned GPT-2
 The GPT-2 model was fine-tuned on the SQuAD dataset for the task of question answering. GPT-2 is a pure generative model, lacking the retrieval mechanism that RAG uses, which makes this comparison valuable in understanding the impact of retrieval on QA performance.
@@ -42,5 +42,5 @@ GPT-2 Performance: The fine-tuned GPT-2 model, while effective as a generative m
 6. Conclusion
 This comparative analysis highlights that Retrieval-Augmented Generation (RAG), with its retrieval mechanism, provides a significant advantage in question-answering tasks when compared to a fine-tuned GPT-2 model. The improvement in accuracy by 18.61% demonstrates the effectiveness of combining retrieval techniques with generative models in domains that require knowledge-based reasoning, such as question answering.
 
-In future work, exploring further fine-tuning strategies and augmenting the GPT-2 model with external knowledge sources could bridge the performance gap between RAG and GPT-2.
+In future work, exploring further fine-tuning strategies and augmenting the GPT-2 model with external knowledge sources could bridge the performance gap between RAG and GPT-2. Additionally, experimenting with other variations and combinations of Retrieval-Augmented Generation (RAG) frameworks and large language models (LLMs), such as GPT-2 Large, could yield more comprehensive insights and potentially enhance overall model performance.
 
